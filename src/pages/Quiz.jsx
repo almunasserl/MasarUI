@@ -239,58 +239,7 @@ const PROGRAMMING_LANGUAGES = [
   "D",
 ];
 
-const FRAMEWORK_LIBRARIES = [
-  ".NET",
-  "After Effects",
-  "Ansible",
-  "API scripting",
-  "ARIA",
-  "Blueprint",
-  "BPMN",
-  "CFScript",
-  "CFML",
-  "CFQuery",
-  "CUDA",
-  "Drools",
-  "DSML",
-  "EMF",
-  "Figma plugins",
-  "GAS",
-  "GLSL",
-  "GraphQL",
-  "Groovy",
-  "HCL",
-  "HLSL",
-  "JSON",
-  "Knockout.js",
-  "LabVIEW",
-  "LaTeX",
-  "LISP",
-  "LiveScript",
-  "Node.js",
-  "OPL",
-  "Pig Latin",
-  "PostScript",
-  "PowerShell",
-  "Processing",
-  "Puppet DSL",
-  "Shell scripting",
-  "SASS/SCSS",
-  "SPARQL",
-  "SQLite scripting",
-  "Stml",
-  "SystemVerilog",
-  "Terraform DSL",
-  "UML",
-  "UnityScript",
-  "VAL3",
-  "Verilog",
-  "VHDL",
-  "XAML",
-  "XML",
-  "YAML",
-  "Yul",
-];
+
 
 const MARKUP_QUERY_CONFIG = [
   "HTML",
@@ -329,14 +278,7 @@ const EDUCATION_LEVELS = [
     "PhD"
   ];
 
-const TRAIT_OPTIONS = [
-  "A. Mathematical & Analytical Thinking",
-  "B. Creative Problem Solving",
-  "C. System Design & Architecture",
-  "D. Attention to Detail",
-  "E. Communication & Collaboration",
-  "F. Leadership & Strategy",
-];
+
 
 const CERTIFICATION_OPTIONS = [
   "AWS Machine Learning Specialty",
@@ -761,7 +703,6 @@ export default function Quiz() {
   );
 }
 
-// Drop-down مع بحث يدعم single و multi
 function SearchableSelect({ options = [], value, type, disabled, onSelect }) {
   const [query, setQuery] = useState("");
 
