@@ -102,101 +102,94 @@ const FIELD_SPECIALIZATIONS = {
 };
 
 const SKILL_OPTIONS = [
-  "Artificial Intelligence",
-  "Machine Learning",
-  "Deep Learning",
-  "Data Analysis",
-  "Data Mining",
-  "Statistical Modeling",
-  "Predictive Modeling",
-  "NLP",
-  "Computer Vision",
-  "Cloud Computing",
-  "Cybersecurity Fundamentals",
-  "Network Security",
-  "Penetration Testing",
-  "Incident Response",
-  "Risk Assessment",
-  "Vulnerability Assessment",
-  "Ethical Hacking",
-  "Front-End Development",
-  "Back-End Development",
-  "Full-Stack Development",
-  "Mobile App Development",
-  "Database Management",
-  "Database Design",
-  "Data Warehousing",
-  "ETL / Data Pipelines",
-  "DevOps Practices",
+  "Collaboration",
+  "documentation",
+  "debugging",
+  "Communication",
+  "Automation",
+  "teamwork",
+  "Testing",
+  "performance optimization",
   "CI/CD",
-  "Containerization",
-  "Virtualization",
-  "Problem-Solving",
-  "Algorithms & Data Structures",
-  "System Design",
-  "UI/UX",
-  "Wireframing",
-  "Prototyping",
-  "Requirements Engineering",
-  "Project Management",
-  "Software Testing",
-  "QA",
-  "Automation Testing",
-  "Git/GitHub",
-  "Linux Administration",
-  "Cloud Deployment",
-  "API Development",
-  "REST APIs",
-  "GraphQL Basics",
-  "Scrum/Agile",
-  "None",
+  "Monitoring",
+  "Security",
+  "reporting",
+  "problem-solving",
+  "performance tuning",
+  "stakeholder communication",
+  "Scalability",
+  "prototyping",
+  "API integration",
+  "Troubleshooting",
+  "optimization",
+  "usability testing",
+  "critical thinking",
+  "data visualization",
+  "version control",
+  "attention to detail",
+  "Infrastructure as Code",
+  "Threat modeling",
+  "performance profiling",
+  "scalability planning",
+  "Compliance",
+  "risk assessment",
+  "anomaly detection",
+  "Incident response",
+  "profiling",
 ];
 
+
 const TOOL_OPTIONS = [
-  "Git/GitHub",
+  "Git",
   "Docker",
   "Kubernetes",
-  "Jenkins",
-  "AWS",
-  "Azure",
-  "GCP",
-  "Linux/Ubuntu/CLI",
-  "MySQL",
-  "PostgreSQL",
-  "MongoDB",
-  "Oracle Database",
-  "Redis",
-  "Firebase",
-  "TensorFlow",
-  "PyTorch",
-  "Keras",
-  "Pandas/NumPy",
-  "Scikit-learn",
-  "Power BI",
-  "Tableau",
-  "Hadoop",
-  "Spark",
-  "Airflow",
-  "Figma",
-  "Adobe XD",
-  "Wireshark",
-  "Metasploit",
-  "Burp Suite",
-  "VS Code",
-  "Android Studio",
-  "Xcode",
-  "Postman",
-  "Swagger",
-  "Jira",
-  "Trello",
-  "Notion",
-  "ELK",
-  "Ansible",
   "Terraform",
-  "VMware",
-  "VirtualBox",
+  "Jenkins",
+  "Tableau",
+  "Figma",
+  "Unity",
+  "Ansible",
+  "TensorFlow",
+  "Jupyter",
+  "Excel",
+  "Wireshark",
+  "PyTorch",
+  "Prometheus",
+  "Unreal Engine",
+  "Splunk",
+  "ROS",
+  "Grafana",
+  "Power BI",
+  "AWS",
+  "Postman",
+  "VS Code",
+  "Jira",
+  "Lighthouse",
+  "OpenCV",
+  "ELK Stack",
+  "Chrome DevTools",
+  "Blender",
+  "Adobe XD",
   "Kafka",
-  "None",
+  "Visual Studio",
+  "GitHub Actions",
+  "Google Analytics",
+  "Sketch",
+  "Burp Suite",
+  "Vault",
+  "Azure",
+  "Android Studio",
+  "REST APIs",
+  "ServiceNow",
+  "Helm",
+  "GitLab CI/CD",
+  "Xcode",
+  "Redis",
+  "Gazebo",
+  "npm",
+  "MLflow",
+  "Webpack",
+  "Perforce",
 ];
 
 const PROGRAMMING_LANGUAGES = [
@@ -332,11 +325,9 @@ const WORK_ENVIRONMENTS = [
 
 const EDUCATION_LEVELS = [
   "Bachelor’s",
-  "Master’s",
-  "PhD",
-  "Self-Taught / Bootcamp",
-  "Currently Studying",
-];
+   "Master’s",
+    "PhD"
+  ];
 
 const TRAIT_OPTIONS = [
   "A. Mathematical & Analytical Thinking",
@@ -346,6 +337,66 @@ const TRAIT_OPTIONS = [
   "E. Communication & Collaboration",
   "F. Leadership & Strategy",
 ];
+
+const CERTIFICATION_OPTIONS = [
+  "AWS Machine Learning Specialty",
+  "TensorFlow Developer",
+  "Google ML Engineer",
+  "AWS Developer Associate",
+  "Meta Front-End Developer",
+  "Google Data Engineer",
+  "AWS Data Analytics Specialty",
+  "Certified Blockchain Developer",
+  "Ethereum Developer Certification",
+  "CompTIA Security+",
+  "ROS Certification",
+  "AWS Solutions Architect Associate",
+  "CompTIA CySA+",
+  "Industrial Robotics Certification",
+  "Google UX Design Certificate",
+  "Unity VR Developer",
+  "Meta AR/VR Developer",
+  "Flutter Certification",
+  "Azure Administrator Associate",
+  "Google Data Analytics Certificate",
+  "Microsoft PL-300 Data Analyst",
+  "Tableau Certification",
+  "Databricks Data Engineer Associate",
+  "AZ-220 Azure IoT Developer",
+  "Unity Certified Developer",
+  "Unreal Engine Developer",
+  "NN/g UX Certification",
+  "AWS DevOps Engineer Professional",
+  "CKA Kubernetes Administrator",
+  "DP-100 Azure Data Scientist",
+  "Terraform Associate",
+  "Cisco IoT Fundamentals",
+  "Google Associate Cloud Engineer",
+  "NVIDIA CV Certification",
+  "Certified Secure Software Lifecycle Professional",
+  "AWS Security Specialty",
+  "Azure Security Engineer (AZ-500)",
+  "CCSP",
+  "Google Analytics Certification",
+  "Shopify Developer Certification",
+  "Magento Developer",
+  "CompTIA Network+",
+  "Cisco CCNA",
+  "CompTIA Server+",
+  "Oracle Performance Tuning Expert",
+  "Google Certified Educator",
+  "NLP Specialization (industry-recognized)",
+  "HuggingFace NLP Certificate",
+  "AWS ML Specialty",
+  "NVIDIA Edge AI Certification",
+];
+
+
+const UNIQUE_TOOL_OPTIONS = Array.from(new Set(TOOL_OPTIONS));
+const UNIQUE_SKILL_OPTIONS = Array.from(new Set(SKILL_OPTIONS));
+const UNIQUE_CERTIFICATION_OPTIONS = Array.from(
+  new Set(CERTIFICATION_OPTIONS)
+);
 
 const QUESTION_META = [
   {
@@ -391,34 +442,34 @@ const QUESTION_META = [
   {
     id: "q52",
     step: "STEP 3 — Technical Preferences",
-    prompt: "Q5.2 Tools / Frameworks / Libraries (Multi-select)",
-    helper: "Capture your supporting frameworks or automation stacks.",
+    prompt: "Q5.2 Which tools are you confident using? (Multi-select)",
+    helper: "Search and select all tools you actively use.",
     type: "multi",
-    options: FRAMEWORK_LIBRARIES,
+    options: UNIQUE_TOOL_OPTIONS,
   },
   {
     id: "q53",
     step: "STEP 3 — Technical Preferences",
-    prompt: "Q5.3 Markup / Query / Config (Multi-select)",
-    helper: "Note the declarative/config languages you use most.",
+    prompt: "Q5.3 Which technical skills do you have? (Multi-select)",
+    helper: "Search and pick all skills that match your current profile.",
     type: "multi",
-    options: MARKUP_QUERY_CONFIG,
+    options: UNIQUE_SKILL_OPTIONS,
   },
   {
     id: "q7",
     step: "STEP 4 — Work Style & Background",
     prompt: "Q7. What’s your education level?",
-    helper: "Share your current education milestone.",
+    helper: "Search and choose your highest completed education level.",
     type: "single",
     options: EDUCATION_LEVELS,
   },
   {
     id: "q8",
     step: "STEP 4 — Work Style & Background",
-    prompt: "Q8. Which skills best describe you?",
-    helper: "Choose the strength that feels most natural.",
-    type: "single",
-    options: TRAIT_OPTIONS,
+    prompt: "Q8. Which certifications do you currently hold? (Multi-select)",
+    helper: "Search and select all certifications you already have.",
+    type: "multi",
+    options: UNIQUE_CERTIFICATION_OPTIONS,
   },
 ];
 
@@ -431,7 +482,7 @@ const INITIAL_ANSWERS = {
   q52: [],
   q53: [],
   q7: "",
-  q8: "",
+  q8: [], 
 };
 
 const QUESTION_IDS = QUESTION_META.map((q) => q.id);
@@ -574,6 +625,13 @@ export default function Quiz() {
     goToNextQuestion();
   };
 
+  // الأسئلة اللي تكون Drop-down + بحث
+  const isSearchDropdown =
+    activeQuestion.id === "q52" ||
+    activeQuestion.id === "q53" ||
+    activeQuestion.id === "q7" ||
+    activeQuestion.id === "q8";
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f0f2d] via-[#14143a] to-[#1a1a3f] text-white">
       <div
@@ -589,7 +647,9 @@ export default function Quiz() {
         </Link>
         <header className="space-y-4 text-center md:text-left pt-16">
           <p className="step-title">Masar quiz</p>
-          <h1 className="text-3xl md:text-4xl font-semibold">Answer one question at a time.</h1>
+          <h1 className="text-3xl md:text-4xl font-semibold">
+            Answer one question at a time.
+          </h1>
           <p className="text-base text-white/70 max-w-3xl">
             We turn each answer into features for the recommendation engine. Focus on the card in
             front of you and Masar will reveal the next one automatically.
@@ -618,27 +678,45 @@ export default function Quiz() {
             </div>
 
             {activeQuestion.id === "q2" && !answers.q1 && (
-              <p className="text-sm text-white/60">Select a field first to reveal specializations.</p>
-            )}
-
-            {activeQuestion.id === "q2" && answers.q1 && activeQuestion.options.length === 0 && (
-              <p className="text-sm text-white/70">
-                No specialization needed for this field. Continue when you’re ready.
+              <p className="text-sm text-white/60">
+                Select a field first to reveal specializations.
               </p>
             )}
 
+            {activeQuestion.id === "q2" &&
+              answers.q1 &&
+              activeQuestion.options.length === 0 && (
+                <p className="text-sm text-white/70">
+                  No specialization needed for this field. Continue when you’re ready.
+                </p>
+              )}
+
             {!(activeQuestion.id === "q2" && activeQuestion.options.length === 0) && (
-              <ChoiceWall
-                options={activeQuestion.options}
-                value={answers[activeQuestion.id]}
-                type={activeQuestion.type}
-                disabled={activeQuestion.id === "q2" && !answers.q1}
-                onSelect={(option) =>
-                  activeQuestion.type === "multi"
-                    ? handleMultiToggle(activeIndex, option)
-                    : handleSingleSelect(activeIndex, option)
-                }
-              />
+              isSearchDropdown ? (
+                <SearchableSelect
+                  options={activeQuestion.options}
+                  value={answers[activeQuestion.id]}
+                  type={activeQuestion.type}
+                  disabled={false}
+                  onSelect={(option) =>
+                    activeQuestion.type === "multi"
+                      ? handleMultiToggle(activeIndex, option)
+                      : handleSingleSelect(activeIndex, option)
+                  }
+                />
+              ) : (
+                <ChoiceWall
+                  options={activeQuestion.options}
+                  value={answers[activeQuestion.id]}
+                  type={activeQuestion.type}
+                  disabled={activeQuestion.id === "q2" && !answers.q1}
+                  onSelect={(option) =>
+                    activeQuestion.type === "multi"
+                      ? handleMultiToggle(activeIndex, option)
+                      : handleSingleSelect(activeIndex, option)
+                  }
+                />
+              )
             )}
 
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between pt-2">
@@ -655,9 +733,19 @@ export default function Quiz() {
               {requiresManualAdvance && (
                 <button
                   onClick={handleContinue}
-                  disabled={!hasSelection && !(activeQuestion.id === "q2" && activeQuestion.options.length === 0)}
+                  disabled={
+                    !hasSelection &&
+                    !(
+                      activeQuestion.id === "q2" &&
+                      activeQuestion.options.length === 0
+                    )
+                  }
                   className={`primary-btn w-full sm:w-auto justify-center flex ${
-                    !hasSelection && !(activeQuestion.id === "q2" && activeQuestion.options.length === 0)
+                    !hasSelection &&
+                    !(
+                      activeQuestion.id === "q2" &&
+                      activeQuestion.options.length === 0
+                    )
                       ? "opacity-40 cursor-not-allowed"
                       : ""
                   }`}
@@ -669,6 +757,81 @@ export default function Quiz() {
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+// Drop-down مع بحث يدعم single و multi
+function SearchableSelect({ options = [], value, type, disabled, onSelect }) {
+  const [query, setQuery] = useState("");
+
+  if (disabled) return null;
+
+  const isMulti = type === "multi";
+  const selection = value || (isMulti ? [] : "");
+
+  const filteredOptions = options.filter((opt) =>
+    opt.toLowerCase().includes(query.toLowerCase())
+  );
+
+  return (
+    <div className="w-full max-w-3xl mx-auto text-left space-y-3">
+      <input
+        type="text"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder={
+          isMulti ? "Search & select (Multi-select)" : "Search & select one option"
+        }
+        className="w-full rounded-lg bg-white/5 border border-white/20 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+
+      <div className="max-h-64 overflow-y-auto rounded-lg bg-black/30 border border-white/15">
+        {filteredOptions.length === 0 ? (
+          <p className="text-xs text-white/60 p-3">No matches found.</p>
+        ) : (
+          filteredOptions.map((option) => {
+            const active = isMulti
+              ? selection.includes(option)
+              : selection === option;
+            return (
+              <button
+                key={option}
+                type="button"
+                onClick={() => onSelect(option)}
+                className={`w-full text-left px-3 py-2 text-xs sm:text-sm border-b border-white/5 last:border-b-0 transition ${
+                  active
+                    ? "bg-blue-600/70 text-white"
+                    : "bg-transparent hover:bg-white/10 text-white/90"
+                }`}
+              >
+                {option}
+              </button>
+            );
+          })
+        )}
+      </div>
+
+      {isMulti && selection.length > 0 && (
+        <div className="flex flex-wrap gap-2 pt-1">
+          {selection.map((item) => (
+            <span
+              key={item}
+              className="px-2 py-1 rounded-full bg-blue-600/70 text-[11px] sm:text-xs"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+      )}
+
+      {!isMulti && selection && (
+        <div className="pt-1">
+          <span className="px-2 py-1 rounded-full bg-blue-600/70 text-[11px] sm:text-xs">
+            {selection}
+          </span>
+        </div>
+      )}
     </div>
   );
 }
@@ -688,7 +851,9 @@ function ChoiceWall({ options = [], value, onSelect, type, disabled }) {
   return (
     <div className="flex flex-wrap justify-center md:justify-start lg:justify-center gap-3 sm:gap-4 w-full">
       {options.map((option) => {
-        const active = isMulti ? selection.includes(option) : selection === option;
+        const active = isMulti
+          ? selection.includes(option)
+          : selection === option;
         return (
           <button
             key={option}
